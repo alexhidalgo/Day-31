@@ -1,5 +1,5 @@
 angular.module('app.controllers', ['app.services'])
-.controller('main', function($scope, RandomArrayValue, Pair) {
+.controller('main', function($scope, RandomArrayValue, Pair, SplitString) {
 
 
 	$scope.callRandomArrayValue = function() {
@@ -9,8 +9,14 @@ angular.module('app.controllers', ['app.services'])
 
 	$scope.createPair = function() {
 		var studentList = ["alex", "james", "rick", "gabe", "ryan", "traivs", "aaron", "erica"];
-		var pairedList = [];
+
 		Pair(studentList);
+	};
+
+	$scope.splitString = function() {
+		var myString = "Alex";
+
+		SplitString(myString);
 	};
 
 });
