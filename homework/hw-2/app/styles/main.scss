@@ -1,0 +1,38 @@
+@import 'reset';
+
+.page-view {
+	display: none;
+}
+
+.form label {
+	display: block;
+}
+
+#admin-view {
+	background-color: red;
+}
+
+.menu-btn {
+	display: block;
+	margin: 0 auto;
+	margin-top: 3em;
+	border-radius: 5px;
+}
+
+#menu-view {
+}
+
+h1 {
+	text-align: center;
+}
+
+.game-box {
+	height: 20em;
+	width: 20em;
+	border: black solid 2px;
+	margin: 0 auto;
+}
+
+#game-view {
+}
+
